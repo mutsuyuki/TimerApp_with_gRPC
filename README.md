@@ -1,6 +1,6 @@
 # TimerApp_with_gRPC
 
-[フロント「Vue + gRPC-Web」、サーバー「Python + gRPC」構成でタイマーアプリを作る。](https://github.com/mutsuyuki/TimerApp_with_gRPC)の記事用に作ったタイマーアプリです。
+[フロント「Vue + gRPC-Web」、サーバー「Python + gRPC」構成でタイマーアプリを作る。](https://qiita.com/mutsuyuki/items/b6d6e90bd9cdbbc97472)の記事用に作ったタイマーアプリです。
 
 ### 使用方法
 
