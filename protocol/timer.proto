@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package timer_with_grpc;
+
+service Timer {
+  rpc StartTimer(StartRequest) returns (stream TimerState);  // タイマー開始
+  rpc StopTimer(Empty) returns (TimerState); // タイマー停止
+}
+
+message StartRequest {
+  int32 time = 1;
+}
+
+message TimerState {
+  bool isRunning = 1;
+  int32 leftTime = 2;
+}
+
+// 引数空ができないようなので、空用の定義をしておく
+message Empty {
+}
+
